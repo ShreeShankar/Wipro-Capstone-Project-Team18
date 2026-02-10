@@ -1,5 +1,5 @@
-🛡️** Insurance Policy Management System – Full Stack Application
-**
+🛡️Insurance Policy Management System – Full Stack Application
+
 
 
 A modern, containerized insurance policy management application built with Angular and Spring Boot, designed for insurance agencies to manage customers, policies, claims, and payments efficiently. Features a microservices-ready architecture with Docker deployment and cloud integration capabilities.
@@ -7,12 +7,20 @@ A modern, containerized insurance policy management application built with Angul
 This project demonstrates enterprise-level full-stack development practices, secure authentication, and scalable architecture — ideal for learning modern web development and showcasing real-world application building skills.
 
 🚀 Overview
+
 The Insurance Policy Management System provides insurance companies with a comprehensive platform to manage their entire policy lifecycle through an intuitive web interface and secure REST APIs.
 
 🔹 Frontend: Modern Angular Single Page Application (SPA) with responsive design
+
+
 🔹 Backend: Robust Spring Boot REST API with JWT authentication
+
+
 🔹 Database: MySQL with Azure Cloud persistence options
+
+
 🔹 Deployment: Fully Dockerized with cloud-ready configuration
+
 
 🏗️ Architecture
 The application follows a clean, three-tier architecture:
@@ -21,6 +29,7 @@ The application follows a clean, three-tier architecture:
 Angular Frontend (UI Layer)  →  Spring Boot REST API (Business Layer)  →  MySQL Database (Data Layer)
 
 🔹Frontend Layer
+
 Framework: Angular 17+ (Standalone Components)
 
 State Management: RxJS BehaviorSubject with Services
@@ -33,7 +42,13 @@ Form Handling: Reactive Forms with validation
 
 Routing: Angular Router with lazy loading 
 
+
+
+
+
 🔹Backend Layer
+
+
 Framework: Spring Boot 3.x (Java 17+)
 
 Security: Spring Security with JWT authentication
@@ -45,8 +60,17 @@ Data Access: Spring Data JPA with Hibernate
 Validation: Bean Validation API
 
 
+
+
+
+
 🔹Data Layer
+
+
 Production: Azure MySQL Flexible Server
+
+
+
 
 Project Outcome :
 <img width="1471" height="468" alt="1" src="https://github.com/user-attachments/assets/882d9673-6b12-4dfd-914c-00b5bf4c23b1" />
