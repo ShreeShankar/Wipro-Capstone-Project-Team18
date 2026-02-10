@@ -1,0 +1,48 @@
+<div class="container py-4">
+  <!-- HERO -->
+
+  <div class="p-4 p-md-5 rounded-4 hero shadow-lg">
+    <h1 class="fw-bold mb-2 hero-title">Welcome to Insurance Policy Management</h1>
+
+    <p class="hero-sub">Manage customers, policies and claims efficiently</p>
+  </div>
+
+  <!-- CARDS -->
+  <div class="row g-3 mt-3">
+    <div
+      class="col-md-4"
+      *ngFor="
+        let c of [
+          { label: 'Customers', val: counts.customers, link: '/customers' },
+          { label: 'Policies', val: counts.policies, link: '/policies' },
+          { label: 'Assignments', val: counts.assignments, link: '/assign' },
+          { label: 'Payments', val: counts.payments, link: '/payments' },
+          { label: 'Claims', val: counts.claims, link: '/claims' },
+        ]
+      "
+    >
+      <a class="text-decoration-none" [routerLink]="c.link">
+        <div class="card border-0 shadow rounded-4 h-100 dashboard-card">
+          <div class="card-body p-4">
+            <div class="d-flex justify-content-between align-items-center">
+              <div>
+                <div class="small text-soft">Total</div>
+                <div class="h4 fw-bold mb-0 text-darkish">
+                  {{ c.label }}
+                </div>
+              </div>
+
+              <div class="display-6 fw-bold text-primary">
+                <ng-container *ngIf="c.val !== null; else dashLoading">{{ c.val }}</ng-container>
+                <ng-template #dashLoading>
+                  <div class="spinner-border spinner-border-sm text-primary" role="status"></div>
+                </ng-template>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+  <!-- debug panel removed -->
+</div>

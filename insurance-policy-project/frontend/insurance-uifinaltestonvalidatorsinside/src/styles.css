@@ -1,0 +1,76 @@
+/* ================= NAVBAR ================= */
+
+@import './app/core/styles/validation.css';
+
+.gradient-nav{
+    background: linear-gradient(90deg,#1d2671,#c33764);
+  }
+  
+  .brand-text{
+    letter-spacing:1px;
+    font-size:20px;
+  }
+  
+  .nav-hover{
+    position: relative;
+    transition: 0.3s;
+  }
+  
+  .nav-hover:hover{
+    color:#ffd166 !important;
+    transform: translateY(-2px);
+  }
+  
+  /* ================= HERO ================= */
+  
+
+
+.hero{
+    background: linear-gradient(135deg,#4facfe,#00f2fe);
+    color:#1b1b1b;
+  }
+  
+  /* Heading */
+  
+  .hero-title{
+    color:#0a0a0a;
+    font-size:32px;
+  }
+  
+  /* Sub text */
+  
+  .hero-sub{
+    color:#333;
+    font-size:18px;
+    font-weight:500;
+  }
+  
+  
+  
+  /* ================= DASHBOARD CARDS ================= */
+  
+  .dashboard-card{
+    transition: all 0.35s ease;
+    background: linear-gradient(145deg,#ffffff,#f5f7fa);
+  }
+  
+  .dashboard-card:hover{
+    transform: translateY(-6px) scale(1.02);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.18);
+    background: linear-gradient(145deg,#e3f2fd,#ffffff);
+  }
+  
+  .text-soft{
+    color:#7a7a7a;
+  }
+  
+  .text-darkish{
+    color:#343a40;
+  }
+  
+  /* OPTIONAL NICE PAGE BACKGROUND */
+  
+  body{
+    background: linear-gradient(120deg,#fdfbfb,#ebedee);
+  }
+  
