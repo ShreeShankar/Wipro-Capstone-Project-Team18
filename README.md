@@ -1,4 +1,7 @@
-🛡️ Insurance Policy Management System – Full Stack Application
+🛡️** Insurance Policy Management System – Full Stack Application
+**
+
+
 A modern, containerized insurance policy management application built with Angular and Spring Boot, designed for insurance agencies to manage customers, policies, claims, and payments efficiently. Features a microservices-ready architecture with Docker deployment and cloud integration capabilities.
 
 This project demonstrates enterprise-level full-stack development practices, secure authentication, and scalable architecture — ideal for learning modern web development and showcasing real-world application building skills.
